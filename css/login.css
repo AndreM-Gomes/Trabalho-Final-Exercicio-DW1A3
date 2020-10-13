@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+hr{
+    width: 300px;
+}
+.form-group{
+    display: flex;
+    justify-content: right;
+}
+.links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.links a{
+    display: block;
+}
+input[type=text],input[type=password]{
+    height: 40px;
+}
+h1,h2,label,input,a,button{
+    margin: 10px;
+}
