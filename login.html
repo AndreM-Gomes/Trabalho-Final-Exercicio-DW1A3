@@ -6,15 +6,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/login.css">
 
     <title>Login</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Avançado
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Alguma ação</a>
+                    <a class="dropdown-item" href="#">Outra ação</a>
+                    <a class="dropdown-item" href="#">Alguma coisa aqui</a>
+                </div>
+            </div>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Desativado</a>
+                </li>
+            </ul>
+            <a class="btn btn-primary" href="/login.html">Login</a>
+        </div>
+    </nav>
     <form class="container-sm login-form">
         <div class="form-group">
             <label for="email">UserID or Email</label>
@@ -31,6 +58,15 @@
             </div>
             <div class="col">
                 <button class="btn btn-primary">Forgot password?</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <a href="">Register here!</a>
+            </div>
+            <div class="col">
+                Having problems?
             </div>
         </div>
     </form>
