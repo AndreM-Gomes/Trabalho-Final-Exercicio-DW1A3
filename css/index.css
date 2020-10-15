@@ -77,3 +77,13 @@ span {
 
   margin-bottom: 10px;
 }
+@media only screen and (min-width: 990px) {
+  .show-only-toggled{
+    display: none;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .show-only-untoggled{
+    display: none;
+  }
+}
