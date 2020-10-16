@@ -5,13 +5,16 @@ const subcategory = document.querySelector('#subcategory')
 
 const optionsDictionary = {
   carbon: ['Carbon Black', 'Carbon Fiber', 'Diamond', 'Graphite'],
-  ceramic: [],
-  fluid: [],
-  metal: [],
-  other: [],
-  polymer: [],
-  pure: [],
-  wood: []
+  ceramic: ["Aerogel", "Boride", "Carbide ","Ceramic Matrix Composite","Clay ", "Concrete", "Glass ", "Halide ", "Hydride", "Machinable Ceramic", "Nitride ","Oxide ", "Phosphide/Pnictide","Piezoelectric", "Sulfide/Chalcogenide "
+],
+  fluid: ['Lubricant ','Quenchant ','Solvent '],
+  metal: ['Electronic/Magnetic Alloy ','Ferrous Metal ','Intermetallic','Metal Foam, Mesh, or Honeycomb ','Metal Matrix Composite ', 'Nonferrous Metal '],
+  other: ['Additive/Filler for Polymer ', 'Catalyst/Initiator ', 'Ceramic/Metallic Coating ', 'Composite Core Material ', 'Composite Fibers ', 'Semiconductor '
+  ],
+  polymer: ["Adhesive ", "Film ", "Rapid Prototyping Polymer ", "Renewable/Recycled Polymer ", "Tape ", "Thermoplastic", "Thermoset "
+  ],
+  pure: ['Pure Elements '],
+  wood: ['Hardwood ','Softwood']
 }
 
 const loadNewSelect = () =>
