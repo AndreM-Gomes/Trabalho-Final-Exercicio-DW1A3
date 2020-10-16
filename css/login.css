@@ -1,25 +1,30 @@
-.login-form{
-    max-width: 40vw;
-    max-height: 40vh;
-    position: relative;
-    top: 15vh;
+.login-form {
+  max-width: 40vw;
+  max-height: 40vh;
+  position: relative;
+  top: 15vh;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 970px) {
-    .login-form{
+  .login-form {
     max-width: 80vw;
     max-height: 70vh;
     position: relative;
     top: 10vh;
+  }
 }
-} 
 @media only screen and (min-width: 990px) {
-  .show-only-toggled{
+  .show-only-toggled {
     display: none;
   }
 }
 @media only screen and (max-width: 990px) {
-  .show-only-untoggled{
+  .show-only-untoggled {
     display: none;
   }
 }
