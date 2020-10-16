@@ -58,6 +58,7 @@
     </nav>
     <div class="content">
       <form action="" method="get">
+      <div class="selectGroup">
       <select name="category" id="category">
         <option selected disabled hidden>Select one category</option>
         <option value="carbon">Carbon</option>
@@ -69,11 +70,14 @@
         <option value="pure">Pure Element</option>
         <option value="wood">Wood and Natural Products</option>
       </select>
+      
       <select name="subcategory" id="subcategory" disabled>
         <option value="" selected disabled hidden>
           Select one subcategory
         </option>
       </select>
+      <select id='subsubcategory' disabled hidden></select>
+    </div>
       <div class="action">
         <button class="btn btn-secondary clear">Clear</button>
         <button class="btn btn-primary" type='submit' disabled>Search</button>
