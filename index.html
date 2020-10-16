@@ -13,18 +13,43 @@
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between"
-    >
-      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-        <ul class="navbar-nav mr-auto">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="btn btn-primary show-only-toggled" href="/login.html">Login</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="/"
               >Home <span class="sr-only">(página atual)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">About Us</a>
+            <a href="" class="nav-link">Search</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Suppliers</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Folders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">FAQ</a>
           </li>
         </ul>
         <a class="btn btn-primary show-only-untoggled" href="/login.html"
@@ -50,9 +75,11 @@
             Avançado
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/material-type.html"
+              >Material Type</a
+            >
             <a class="dropdown-item" href="#">Physical Properties</a>
             <a class="dropdown-item" href="#">Alloy Composition</a>
-            <a class="dropdown-item" href="#">Material Type</a>
             <a class="dropdown-item" href="#">Manufacture Name</a>
             <a class="dropdown-item" href="#">Trade Name</a>
             <a class="dropdown-item" href="#">Metal UNS Number</a>
