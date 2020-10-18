@@ -1,110 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/index.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>MatWeb</title>
-  </head>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/index.css" />
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="btn btn-primary show-only-toggled" href="/login.html">Login</a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="/"
-              >Home <span class="sr-only">(página atual)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Search</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Tools</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Suppliers</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Folders</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about-us.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">FAQ</a>
-          </li>
-        </ul>
-        <a class="btn btn-primary show-only-untoggled" href="/login.html"
-          >Login</a
-        >
-      </div>
-    </nav>
-    <div class="content">
-      <div class="logo">
-        <h1>MatWeb</h1>
-        <p>Your source for material information</p>
-      </div>
-      <form action="" method="get" class="search">
-        <div class="dropdown">
-          <button
-            class="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Avançado
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="/material-type.html"
-              >Material Type</a
-            >
-            <a class="dropdown-item" href="#">Physical Properties</a>
-            <a class="dropdown-item" href="#">Alloy Composition</a>
-            <a class="dropdown-item" href="#">Manufacture Name</a>
-            <a class="dropdown-item" href="#">Trade Name</a>
-            <a class="dropdown-item" href="#">Metal UNS Number</a>
-          </div>
-        </div>
+  <title>MatWeb</title>
+</head>
 
-        <input type="text" placeholder="search" />
-        <button type="submit" class="btn btn-primary"></button>
-      </form>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="btn btn-primary show-only-toggled" href="/login.html">Login</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Search</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Tools</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Suppliers</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">Folders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about-us.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link">FAQ</a>
+        </li>
+      </ul>
+      <a class="btn btn-primary show-only-untoggled" href="/login.html">Login</a>
     </div>
+  </nav>
+  <div class="content">
+    <div class="logo">
+      <h1>MatWeb</h1>
+      <p>Your source for material information</p>
+    </div>
+    <form action="" method="get" class="search">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Avançado
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="/material-type.html">Material Type</a>
+          <a class="dropdown-item" href="#">Physical Properties</a>
+          <a class="dropdown-item" href="#">Alloy Composition</a>
+          <a class="dropdown-item" href="#">Manufacture Name</a>
+          <a class="dropdown-item" href="#">Trade Name</a>
+          <a class="dropdown-item" href="#">Metal UNS Number</a>
+        </div>
+      </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <input type="text" placeholder="search" />
+      <a class="btn btn-primary" href="/results.html">
+        Pesquisar
+      </a>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
