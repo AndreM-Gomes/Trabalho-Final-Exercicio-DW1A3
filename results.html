@@ -1,103 +1,132 @@
 <!-- Escrito por André M Gomes -->
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="pt-br">
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta name="author" content="André M Gomes" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/results.css" />
 
     <title>MatWeb</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Barra de pesquisa superior-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="btn btn-primary show-only-toggled" href="/login.html">Login</a>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Search</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Tools</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Suppliers</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Folders</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about-us.html">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">FAQ</a>
-                </li>
-            </ul>
-            <a class="btn btn-primary show-only-untoggled" href="/login.html">Login</a>
-        </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="btn btn-primary show-only-toggled" href="/login.html">Login</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="/"
+              >Home <span class="sr-only">(página atual)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Tools</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Suppliers</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Folders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">FAQ</a>
+          </li>
+        </ul>
+        <a class="btn btn-primary show-only-untoggled" href="/login.html"
+          >Login</a
+        >
+      </div>
     </nav>
-    <!-- Fim barra d epesquisa superior -->
+    <!-- Fim barra de pesquisa superior -->
     <!-- Resultados de uma pesquisa -->
     <div class="results">
-        <h1 class="display-4">Search Results</h1>
-        <p>
-            Found 6 pages of 10 items each
-        </p>
-        <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action">Actinium, Ac</a>
-            <a href="#" class="list-group-item list-group-item-action">Silver, Ag</a>
-            <a href="#" class="list-group-item list-group-item-action">Aluminium, Al</a>
-            <a href="#" class="list-group-item list-group-item-action">Arsenic, As</a>
-            <a href="#" class="list-group-item list-group-item-action">Iron, Fe</a>
-            <a href="#" class="list-group-item list-group-item-action">Cesium, Cs</a>
-            <a href="#" class="list-group-item list-group-item-action">Erbium, Er</a>
-            <a href="#" class="list-group-item list-group-item-action">Cobalt, Co</a>
-            <a href="#" class="list-group-item list-group-item-action">Cadmium, Cd</a>
-            <a href="#" class="list-group-item list-group-item-action">Gold, Au</a>
-
-        </div>
-        <nav aria-label="...">
-            <ul class="pagination">
-                <li class="page-item disabled">
-                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                </li>
-                <li class="page-item active" aria-current="page">
-                    <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                <li class="page-item"><a class="page-link" href="#">5</a></li>
-                <li class="page-item"><a class="page-link" href="#">6</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#">Next</a>
-                </li>
-            </ul>
-        </nav>
+      <h1 class="display-4">Search Results</h1>
+      <p>Found 6 pages of 10 items each</p>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action"
+          >Actinium, Ac</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >Silver, Ag</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >Aluminium, Al</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >Arsenic, As</a
+        >
+        <a href="#" class="list-group-item list-group-item-action">Iron, Fe</a>
+        <a href="#" class="list-group-item list-group-item-action"
+          >Cesium, Cs</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >Erbium, Er</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >Cobalt, Co</a
+        >
+        <a href="#" class="list-group-item list-group-item-action"
+          >Cadmium, Cd</a
+        >
+        <a href="#" class="list-group-item list-group-item-action">Gold, Au</a>
+      </div>
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
+              >Previous</a
+            >
+          </li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#"
+              >1 <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">6</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
     </div>
     <!-- Fim dos resultados de uma pesquisa -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
