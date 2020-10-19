@@ -1,18 +1,1 @@
-.results{
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
-    height: 88vh;
-}
-@media only screen and (min-width: 990px) {
-  .show-only-toggled {
-    display: none;
-  }
-}
-@media only screen and (max-width: 990px) {
-  .show-only-untoggled {
-    display: none;
-  }
 }
