@@ -8,7 +8,7 @@ const selectGroup = document.querySelector('.selectGroup')
 const subcategory = document.querySelector('#subcategory')
 const subSubCategory = document.querySelector('#subsubcategory')
 
-
+// dicionarios de opções a ser recaregado
 const optionsDictionary = {
   carbon: ['Carbon Black', 'Carbon Fiber', 'Diamond', 'Graphite'],
   ceramic: ["Aerogel", "Boride", "Carbide ","Ceramic Matrix Composite","Clay ", "Concrete", "Glass ", "Halide ", "Hydride", "Machinable Ceramic", "Nitride ","Oxide ", "Phosphide/Pnictide","Piezoelectric", "Sulfide/Chalcogenide "
@@ -37,6 +37,7 @@ const optionsDictionary = {
 
 }
 
+// função que carrega as opções da segunda caixa de pesquisa
 const loadNewSelect = () =>
 { 
   search.disabled = true
@@ -54,6 +55,7 @@ const loadNewSelect = () =>
     search.disabled = false;
 }
 
+// função que carrega as opções da terceira caixa de pesquisa
 const addSubSubCategory = () => {
   let select = subcategory.options[subcategory.selectedIndex].value
 
@@ -75,6 +77,7 @@ const addSubSubCategory = () => {
   
 }
 
+// função para limpar os inputs
 const clearInputs = () => {
   category.options[0].selected = true;
   subcategory.disabled = true;
@@ -83,6 +86,7 @@ const clearInputs = () => {
 }
 
 
+// adicionando observadores de eventos 
 category.addEventListener('change', loadNewSelect)
 subcategory.addEventListener('change', addSubSubCategory)
 clear.addEventListener('click', clearInputs);
