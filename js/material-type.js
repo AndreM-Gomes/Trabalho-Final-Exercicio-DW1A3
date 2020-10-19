@@ -63,7 +63,7 @@ const addSubSubCategory = () => {
   subSubCategory.hidden = true;
 
   if(optionsDictionary[select]){
-  var options =  optionsDictionary[select]
+    var options =  optionsDictionary[select]
 
   subSubCategory.disabled = false
   subSubCategory.hidden = false;
@@ -73,8 +73,7 @@ const addSubSubCategory = () => {
   options.forEach(element => {
     subSubCategory.innerHTML += `<option value='${element.split(' ')[0]}${element.split(' ')[1]}'>${element}</>`
   });
-}
-  
+  } 
 }
 
 // função para limpar os inputs
@@ -85,8 +84,20 @@ const clearInputs = () => {
   search.disabled = true;
 }
 
-
 // adicionando observadores de eventos 
 category.addEventListener('change', loadNewSelect)
 subcategory.addEventListener('change', addSubSubCategory)
 clear.addEventListener('click', clearInputs);
+
+// função adicionada apenas para fazer o redirecionamento afim de exemplifica ro funcionamento 
+search.addEventListener('click', (e) => {
+  e.preventDefault();
+
+  var url = window.location.href.toString()
+
+  url = url.replace('material-type', 'results')
+
+  console.log(url)
+
+  window.location.href = url
+})
