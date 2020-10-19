@@ -1,7 +1,6 @@
 /* autor Luis Sousa */
 .content {
-  min-height: 90vh;
-  min-width: 100vw;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,13 +11,12 @@
   height: 50px;
 }
 
-.row{
+.row {
   display: flex;
-  flex-direction: row ;
-
+  flex-direction: row;
 }
 
-.logo{
+.logo {
   max-width: 200px;
   max-height: 200px;
 }
@@ -27,8 +25,9 @@ form {
   align-items: center;
 }
 
-button[type="submit"] {
+form a.btn-primary {
   background: url("../assets/search.svg") no-repeat;
+  background-color: #007bff;
   background-position: center;
   height: 50px;
   width: 50px;
@@ -92,4 +91,8 @@ input {
   .dropdown-menu {
     width: 90vw;
   }
+}
+
+.container-fluid {
+  padding: 40px;
 }
