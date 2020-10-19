@@ -1,3 +1,6 @@
+// autor: Luis Sousa
+
+// query de elementos
 const category = document.querySelector('#category')
 const clear = document.querySelector('.clear')
 const search = document.querySelector(".action .btn-primary")
