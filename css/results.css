@@ -1,1 +1,9 @@
+/* autor André M Gomes */
+.results {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  height: 88vh;
 }
